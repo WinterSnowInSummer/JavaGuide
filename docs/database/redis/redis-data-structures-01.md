@@ -352,7 +352,7 @@ Redis 中的 Set 类型是一种无序集合，集合中的元素没有先后顺
 **求差集**：
 
 ```bash
-> SDIFF mySet mySet2 # 差集是由所有属于 mySet 但不属于 A 的元素组成的集合
+> SDIFF mySet mySet2 # 差集是由所有属于 mySet 但不属于 mySet2 的元素组成的集合
 1) "value1"
 ```
 
